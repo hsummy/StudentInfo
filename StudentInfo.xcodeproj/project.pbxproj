@@ -9,10 +9,11 @@
 /* Begin PBXBuildFile section */
 		E3963D511DD3B9D60038C42A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E3963D501DD3B9D60038C42A /* main.m */; };
 		E3963D541DD3B9D60038C42A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E3963D531DD3B9D60038C42A /* AppDelegate.m */; };
-		E3963D571DD3B9D60038C42A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3963D561DD3B9D60038C42A /* ViewController.m */; };
 		E3963D5A1DD3B9D60038C42A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3963D581DD3B9D60038C42A /* Main.storyboard */; };
 		E3963D5C1DD3B9D60038C42A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3963D5B1DD3B9D60038C42A /* Assets.xcassets */; };
 		E3963D5F1DD3B9D60038C42A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3963D5D1DD3B9D60038C42A /* LaunchScreen.storyboard */; };
+		E3963D6B1DD3BEDE0038C42A /* StudentTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3963D6A1DD3BEDE0038C42A /* StudentTableViewController.m */; };
+		E3963D6E1DD3C8550038C42A /* StudentDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = E3963D6D1DD3C8550038C42A /* StudentDetail.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +21,14 @@
 		E3963D501DD3B9D60038C42A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E3963D521DD3B9D60038C42A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E3963D531DD3B9D60038C42A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E3963D551DD3B9D60038C42A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E3963D561DD3B9D60038C42A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E3963D591DD3B9D60038C42A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E3963D5B1DD3B9D60038C42A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3963D5E1DD3B9D60038C42A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3963D601DD3B9D60038C42A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3963D691DD3BEDE0038C42A /* StudentTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StudentTableViewController.h; path = ../StudentTableViewController.h; sourceTree = "<group>"; };
+		E3963D6A1DD3BEDE0038C42A /* StudentTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StudentTableViewController.m; path = ../StudentTableViewController.m; sourceTree = "<group>"; };
+		E3963D6C1DD3C8550038C42A /* StudentDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentDetail.h; sourceTree = "<group>"; };
+		E3963D6D1DD3C8550038C42A /* StudentDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentDetail.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +63,10 @@
 			children = (
 				E3963D521DD3B9D60038C42A /* AppDelegate.h */,
 				E3963D531DD3B9D60038C42A /* AppDelegate.m */,
-				E3963D551DD3B9D60038C42A /* ViewController.h */,
-				E3963D561DD3B9D60038C42A /* ViewController.m */,
+				E3963D691DD3BEDE0038C42A /* StudentTableViewController.h */,
+				E3963D6A1DD3BEDE0038C42A /* StudentTableViewController.m */,
+				E3963D6C1DD3C8550038C42A /* StudentDetail.h */,
+				E3963D6D1DD3C8550038C42A /* StudentDetail.m */,
 				E3963D581DD3B9D60038C42A /* Main.storyboard */,
 				E3963D5B1DD3B9D60038C42A /* Assets.xcassets */,
 				E3963D5D1DD3B9D60038C42A /* LaunchScreen.storyboard */,
@@ -149,8 +154,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3963D571DD3B9D60038C42A /* ViewController.m in Sources */,
+				E3963D6E1DD3C8550038C42A /* StudentDetail.m in Sources */,
 				E3963D541DD3B9D60038C42A /* AppDelegate.m in Sources */,
+				E3963D6B1DD3BEDE0038C42A /* StudentTableViewController.m in Sources */,
 				E3963D511DD3B9D60038C42A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
